@@ -1,0 +1,187 @@
+.mainContainer{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #050709;
+}
+.copyRight{
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+  font-size: 12px;
+}
+.form{
+  width: 30vw;
+  height: 70%;
+  border-radius: 0.5rem;
+  background-color: #140C1C;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.heading{
+  text-align: center;
+  background: linear-gradient(to right, #8952F7, #ffffff);
+  background-clip: text;
+  color: transparent;
+  width: 100%;
+  font-size: 1.5rem;
+  height: 15%;
+  display: grid;
+  place-items: center;
+}
+.inputContainer{
+  width: 100%;
+  display: grid;
+  height: 30%;
+  place-items: center;
+}
+.inp {
+  width: 90%;
+  height: 80%;
+  margin-top: 2%;
+  background-color: #050709;
+  color: white;
+  border-radius: 0.5rem;
+  border: 2px solid transparent;
+  padding-left: 2.5%;
+  outline: none;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+.inp:focus {
+  border-color: #7B49E2;
+}
+.textareaContainer{
+  padding: 2% 0;
+  height: 40%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.textarea {
+  padding: 2.5%;
+  width: 90%;
+  height: 100%;
+  background-color: #050709;
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 0.5rem;
+  outline: none;
+  resize: none;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.textarea:focus {
+  border-color: #7B49E2;
+}
+.textarea::-webkit-scrollbar {
+  width: 12px;
+}
+.textarea::-webkit-scrollbar-thumb {
+  background-color: #7B49E2;
+  border-radius: 6px;
+  height: 10%;
+}
+.btnContainer{
+  width: 100%;
+  display: grid;
+  place-items: center;
+  height: 15%;
+}
+.btn{
+  border: none;
+  border-radius: 10px;
+  background-color: #7B49E2;
+  color: white;
+  height: 50%;
+  width: 35%;
+  font-size: 1.25rem;
+}
+
+/* I Phone 7 */
+@media (min-width: 0px) and (max-width: 320px) {
+    .form{
+      width: 80%;
+      height: 80vh;
+    }
+    .heading{
+      height: 10%;
+    }
+    .btn{
+      width: 60%;
+      height: 80%;
+      font-size: 1rem;
+    }
+}
+/* NORMAL PHONE */
+@media (min-width: 321px) and (max-width: 375px) {
+  .form{
+    width: 80%;
+  }
+  .heading{
+    height: 10%;
+  }
+  .btn{
+    width: 60%;
+    height: 70%;
+    font-size: 1.20rem;
+  }
+}
+/* I PHONE 13 ONE PLUS*/
+@media (min-width: 376px) and (max-width: 425px) {
+  .form{
+    width: 80%;
+  }
+  .heading{
+    height: 10%;
+  }
+  .btn{
+    width: 60%;
+    height: 70%;
+    font-size: 1.20rem;
+  }
+}
+/* I PHONE 13 MAX */
+@media (min-width: 426px) and (max-width: 767px) {
+  .form{
+    width: 80%;
+  }
+  .heading{
+    height: 15%;
+  }
+  .btn{
+    width: 60%;
+    height: 70%;
+    font-size: 1.20rem;
+  }
+}
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .form{
+    width: 60%;
+  }
+  .heading{
+    height: 10%;
+  }
+  .btn{
+    width: 60%;
+    height: 70%;
+    font-size: 1.20rem;
+  }
+}
+/* Foldable Mobile */
+@media (min-width: 1024px) and (max-width: 1439px){
+
+  .heading{
+    height: 15%;
+  }
+  .btn{
+    width: 50%;
+    height: 70%;
+    font-size: 1.20rem;
+  }
+}
+
